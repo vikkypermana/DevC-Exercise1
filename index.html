@@ -3,28 +3,37 @@
 <head>
     <title>Exercise 1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-            b{
-                color: blueviolet;
-            }
-            .footer{
-                font-size: 10pt;
-                color: red;
-            }
-    </style>    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-        <h1>Biodata</h1>
-        <hr>
-        Nama : <b>Vikky Permana</b> <br>
-        Jenis Kelamin : <b>Laki-laki</b> <br>
-        Alamat : <b>Pondok Kelapa</b><br>
-        Email : <b>vikkypermana@gmail.com</b> <br>
-    </center>
-    <br>
-    <center class="footer">
-        created by &copy;2019 Vikky Permana
-    </center>
+    
+    <div class="banner">
+        <span id="judul">Biodata</span><br>
+        <span id="subjudul">DevC Javascript Development Course - Batch 25</span>
+        <img src="Cat_BW.png" alt="Photo Profile">
+    </div>
+    
+    <table class="table table-bordered"> 
+        <tr>
+            <td width="200px">Nama</td>
+            <td>Vikky Permana</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>Laki-laki</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>Pondok Kelapa - Jakarta Timur</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>vikkypermana@gmail.com</td>
+        </tr>
+    </table>
+        
+    <footer class="footer">
+        <small>created &copy;2019 by Vikky Permana</small>
+    </footer>    
 </body>
 </html>

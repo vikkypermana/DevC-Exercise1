@@ -1,0 +1,31 @@
+b{
+    color: blueviolet;
+}
+.footer{
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;    
+    width: 100%;
+    color: red;
+}
+.banner{
+    height: 200px;
+    background-color: blueviolet;
+    padding: 30px 40px;       
+}
+.banner img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+}
+#judul{
+    font-size: 75px; 
+    font-weight: bolder;
+}
+#subjudul{
+    font-size: 15px; 
+    font-weight: bold;
+    color: white;
+}
